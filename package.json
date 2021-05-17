@@ -1,0 +1,30 @@
+{
+  "name": "mirainya",
+  "version": "2.2.0",
+  "description": "a simple typescript sdk for mirai",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "tsc & node lib/src/index",
+    "build": "build",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "keywords": [
+    "typescript",
+    "mirai"
+  ],
+  "author": "enzymii",
+  "license": "GPL-3.0",
+  "prepublish": "tsc",
+  "dependencies": {
+    "@types/ws": "^7.4.0",
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "ws": "^7.4.1"
+  },
+  "devDependencies": {}
+}

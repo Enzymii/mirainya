@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "target": "ESNext",
+    "sourceMap": false,
+    "typeRoots": ["./node_modules/@types"],
+    "outDir": "./lib",
+    "esModuleInterop": true,
+    "declaration": true
+  },
+  "include": [
+    "src/*",
+    "src/*/*",
+    "resource/*",
+    "utils/*",
+    "index.ts",
+    "miraiAPI.ts",
+    "miraiBot.ts"
+  ]
+}
